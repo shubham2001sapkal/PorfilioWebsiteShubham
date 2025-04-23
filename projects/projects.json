@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Magic Memory webApplication",
+    "desc": "Magic memory Game webApplication built on the React library.",
+    "image": "reactproject",
+    "category": "reactjs",
+    "links": {
+      "view": "https://reactjsprojects.h",
+      "code": "https://github.com/jigar-sabl"
+    }
+  },
+  {
+    "name": "Portfolio Website",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "portfolioimg",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/"
+    }
+  },
+  {
+    "name": "Shopping Website",
+    "desc": "Basic Shopping website landing page built using HTML, CSS, JavaScript",
+    "image": "shoppingwebsite",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Cafe Website",
+    "desc": "Basic Cafe webpage allow users to check menu and price. Dummy Order Form.",
+    "image": "cafe",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]
