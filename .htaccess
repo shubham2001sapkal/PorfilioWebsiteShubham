@@ -1,0 +1,14 @@
+# Disable directory browsing
+Options -Indexes
+
+# Prevent access to certain files
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Prevent access to system and app directories
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/(system|app|writable) [NC]
+RewriteRule ^(.*)$ - [F,L]
+

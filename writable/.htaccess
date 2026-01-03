@@ -1,0 +1,9 @@
+# Disable directory browsing
+Options -Indexes
+
+# Deny all requests
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule .* - [F,L]
+</IfModule>
+
